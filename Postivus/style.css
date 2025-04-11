@@ -2,6 +2,22 @@ body{
     margin: 0;
     padding: 0;
 }
+.body{
+    max-width: 1440px;
+    margin: o auto;
+}
+
+/* colour secion */
+.button-dark{
+    background-color: #191A23;
+    border-radius: 1rem;
+    color:#FFFFFF;
+    padding: 1.5rem 2.375rem;
+    margin-top:2rem;
+    font-size: 1rem;
+    border: 1px solid #191A23;
+    
+}
 /* main header starts here */
 
 .nav{
@@ -33,6 +49,25 @@ body{
 .nav-button{
     border: 1px solid #000000;
     background-color: transparent;
-    padding: 20px 35px;
-    border-radius: 14px;
+    padding: 2.4rem 4.3rem;
+    border-radius: 1.75rem;
+}
+
+.section-h1{
+    margin: 0;
+}
+
+.section-div2-child{
+    font-weight: medium;
+    font-size: 2.6rem;
+}
+
+.section-div2-child2{
+    margin-top:2.rem;
+
+}
+
+.section1-div1{
+    display: flex;
+    justify-content: space-evenly;
 }
