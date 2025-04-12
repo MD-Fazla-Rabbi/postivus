@@ -66,6 +66,14 @@ body{
     margin: 0;
 }
 
+.mobile-img{
+    display: none;
+}
+
+.desktop-img{
+    display: block;
+}
+
 .section-div2-child{
     font-weight: medium;
     font-size: 2.6rem;
@@ -82,16 +90,76 @@ body{
 }
 
 .first-logo-div{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     justify-content: space-between;
     margin-top: 1rem;
-    margin: 2.4rem;
+
 }
+
+/* section1 end here */
+
+/* section2 start here */
+
 
 .section2-parent-div{
     display: flex;
     /* justify-content: space-between; */
     align-content: center;
     gap:2rem;
-    font-size: 1rem;
+    /* font-size: 1.5rem; */
+    margin-top: 6rem;
 }
+
+.section2-button{
+display: flex;
+font-size: 2rem;
+background-color: #B9FF66;
+border: none;
+text-align: center;
+}
+
+.section2-p{
+    font-size: 1.5rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 576px){
+
+    body{
+        margin: 0 auto;
+    }
+    .nav{
+        flex-direction: column;
+    }
+
+    .nav-bar{
+        flex-wrap: wrap;
+    }
+
+    .mobile-img{
+        display: block;
+    }
+
+    .desktop-img{
+        display: none;
+
+    }
+
+    .nav-button{
+        margin-top: 1rem;
+        padding: 1.4rem 2.3rem;
+    }
+
+    .section1-div1{
+    flex-direction: column;
+    }
+    .first-logo-div{
+        
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem
+    }
+};
+    
+
