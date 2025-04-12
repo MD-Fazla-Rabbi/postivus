@@ -1,10 +1,13 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
-.body{
+
+/* body style */
+body{
+    margin-top: 2rem;
     max-width: 1440px;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 /* colour secion */
@@ -53,6 +56,12 @@ body{
     border-radius: 1.75rem;
 }
 
+/* section1 starts here */
+
+.section1{
+    margin-top: 2rem;
+}
+
 .section-h1{
     margin: 0;
 }
@@ -69,11 +78,20 @@ body{
 
 .section1-div1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.frist-logo-div{
+.first-logo-div{
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
+    margin: 2.4rem;
+}
+
+.section2-parent-div{
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: center;
+    gap:2rem;
+    font-size: 1rem;
 }
