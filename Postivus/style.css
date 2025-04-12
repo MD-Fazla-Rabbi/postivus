@@ -71,3 +71,9 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+
+.frist-logo-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
