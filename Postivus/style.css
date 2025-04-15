@@ -278,9 +278,9 @@ background-color: #191A23;
     display: none;
 }
 
-.img-container-img{
+img.img-container-img{
     display: none;
-    object-fit: cover;
+
 }
 
 .card-div{
@@ -290,7 +290,9 @@ background-color: #191A23;
     width: 250px;
     margin-left: 15px; 
 }
-.div3-content-m{}
+.div3-content-m{
+    display: block;
+}
 
 .section3-child-m{
     display:block;
@@ -307,5 +309,8 @@ background-color: #191A23;
 .div3-media-m{
     display:block ;
     
+
+}
+
 
 }
