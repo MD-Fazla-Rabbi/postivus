@@ -217,6 +217,117 @@ background-color: #B9FF66;
 background-color: #191A23;
 }
 
+/* section3 end here css-------------------- */
+
+
+/* section4 start here css ------------------*/
+
+.section4-main-div{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    background-color:#F3F3F3;
+    border-radius:45px;
+}
+.section4-child-div1{
+
+    padding: 3rem;
+}
+
+.section4-h3-h{
+    font-size: 2rem;
+
+}
+
+.section4-h3{
+    padding-top: 2rem;
+
+}
+
+.section4-p{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.section4-button{
+   margin-top:2rem;
+    border: none;
+    background-color: #000000;
+    color: #F3F3F3;
+    height: 4rem;
+    width: 20rem;
+    border-radius: 14px;
+    transition:transform 4s;
+}
+
+.section4-button:hover{
+    transform:scale(1.2) rotate(360deg);
+
+}
+
+.section4-img{
+    padding-right: 8rem;
+    z-index: 1;
+    top:0;
+    right:0;
+
+    
+    right: 400px;
+    bottom:20px;
+}
+.img-section4-img{
+    top:0;
+    right: 0;
+    max-height: auto;
+}
+    
+.button-dark-m{
+    display:none;
+}
+
+.section4-main-div-m{
+    display: none;
+}
+
+.section4-child2{
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    gap:3rem;
+}
+
+.section4-button2{
+height: 3rem;
+width: 15rem;
+font-size: 2.3rem;
+border:none;
+background-color: #B9FF66;
+border-radius: 5px;
+}
+
+.section4-p-p{
+    font-size:1.3rem;
+}
+
+.section4-child2-m{
+    display: none;
+}
+/* section 4 end here                                  */
+
+
+/* section 5 start here                                */
+
+
+
+
+
+
+
+
+
+
 
 
 /* media queries................................... */
@@ -225,6 +336,7 @@ background-color: #191A23;
 
     body{
         margin: 0 auto;
+
     }
     .nav{
         flex-direction: column;
@@ -266,8 +378,17 @@ background-color: #191A23;
     .div3-main1 {
         
         grid-template-columns: repeat(1, 1fr);
+        max-height: 290px;
+        width: 150px;
         
-};
+        
+        
+        
+}
+
+.section3{
+   
+}
 
 .img-container{
     display: none;
@@ -280,22 +401,40 @@ background-color: #191A23;
 
 img.img-container-img{
     display: none;
+    max-height: 2rem;
 
+}
+
+.div3{
+   
 }
 
 .card-div{
     font-size: 0.5rem;
-    padding: 10px;
+    padding: 0px;
     justify-content: start;
     width: 250px;
     margin-left: 15px; 
+    justify-content: center;
 }
 .div3-content-m{
     display: block;
+    font-size: 1.5rem;
+    padding: 2rem;
 }
+.img-container-img-m{
+    height: 7rem;
+    width: 7rem;
+    flex-grow: 1;
 
+}
+.m{
+    flex-grow:1;
+}
 .section3-child-m{
     display:block;
+    
+    flex-grow: 1;
 }
 
 .div3-media{
@@ -308,9 +447,13 @@ img.img-container-img{
 
 .div3-media-m{
     display:block ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 
 }
+/* section 3  media quary end here */
 
 
 }
