@@ -229,9 +229,11 @@ background-color: #191A23;
     margin-top: 5rem;
     background-color:#F3F3F3;
     border-radius:45px;
+    overflow: visible;
+    margin-bottom: 5rem;
 }
 .section4-child-div1{
-
+width: 66.66%;
     padding: 3rem;
 }
 
@@ -259,7 +261,7 @@ background-color: #191A23;
     height: 4rem;
     width: 20rem;
     border-radius: 14px;
-    transition:transform 4s;
+    transition: transform 4s;
 }
 
 .section4-button:hover{
@@ -268,19 +270,24 @@ background-color: #191A23;
 }
 
 .section4-img{
-    padding-right: 8rem;
+    width: 33.33%;
     z-index: 1;
-    top:0;
-    right:0;
+    padding-right: 20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    left: 0;
 
-    
-    right: 400px;
-    bottom:20px;
+
 }
 .img-section4-img{
     top:0;
     right: 0;
     max-height: auto;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    
+    
 }
     
 .button-dark-m{
@@ -289,7 +296,10 @@ background-color: #191A23;
 
 .section4-main-div-m{
     display: none;
+    margin-bottom: 10rem;
 }
+
+
 
 .section4-child2{
     display: flex;
@@ -319,12 +329,146 @@ border-radius: 5px;
 
 /* section 5 start here                                */
 
+.section5-main-div{
+    display: flex;
+    background-color: #000000;
+    border-radius: 1.5rem;
+    color:white;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.section5-child-div{
+    display: grid;
+}
+.ction5-div-child{
+    border-right:3px solid white;
+    padding:0rem 4rem 0rem 0rem;
+    
+}
+
+.section5-icon{
+   margin-top: 1rem;
+}
+
+.section5-main-div-m{
+    display: none;
+}
+
+/*  section 5 end here */
+
+/*  section 6 start here */
+
+.sectiond6-div{
+display:flex ;
+gap: 2rem;
+margin-top: 4rem;
+}
+
+.section6-h2{
+font-size: 2.6rem;
+background-color: #B9FF66;
+justify-content: center;
+width: 25rem;
+align-items: center;
+text-align: center;
+
+}
+
+.section6-p{
+    font-size: larger;
+
+}
+
+/*  section 6 end here */
+
+
+/* section 7 start here */
+
+.section7{
+    
+    margin-top: 10rem;
+}
+
+.section7-header{
+    margin-top: 4rem;
+    gap: 2rem;
+}
 
 
 
+.section7-prant-div1{
+    border:2px solid black;
+    border-radius: 1.5rem;
+    padding: 4rem;
+    
+    
+
+}
+
+.section7-child-div1{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.section7-child1-h2{
+    font-size: 3rem;
+    
+}
+
+.plus-icone-div{
+    display:flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.section7-child1-p{
+    font-size: 2rem;
+}
+
+.section7-child-div2{
+    margin-top: 1.4rem;
+    font-size: 1.4rem;
+}
+
+.section7-child2-div2{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid black;
+    border-radius: 1.5rem;
+    padding: 4rem;
+    margin-top: 2rem;
+}
+
+.section7-child2-div3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.section7-child2-h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section7-child2-p2{
+    font-size: 2rem;
+}
 
 
+/* frist div end here */
 
+
+/* section 7 end here */
+
+/* section 8 start here */
 
 
 
@@ -372,7 +516,13 @@ border-radius: 5px;
     .first-logo-div{
         
         grid-template-columns: repeat(3, 1fr);
-        gap: 1rem
+        grid-template-rows: repeat(3, auto);
+     
+    }
+
+    .first-logo-section2{
+        height: 1.5rem;
+        width: 2rem;
     }
 
     .div3-main1 {
@@ -380,11 +530,31 @@ border-radius: 5px;
         grid-template-columns: repeat(1, 1fr);
         max-height: 290px;
         width: 150px;
+    }      
+ .section2-parent-div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }  
+ 
+ .section2-button{
+    justify-content: center;
+   
+    /*align-items: center;*/
+    width: 7rem;
+    height: 3rem;
+    border-left:5rem;
+ }
+
+ .section2-p{
+    align-items: center;
+    padding-left: 2rem;
+
+
+ }
         
         
-        
-        
-}
+
 
 .section3{
    
@@ -453,7 +623,37 @@ img.img-container-img{
     
 
 }
-/* section 3  media quary end here */
+/* section 3  media query end here */
 
+/* section 4 meadia query start here */
+.section4-main-div{
+    display:none;
+}
+
+.section4-child2{
+    display: none;
+}
+.section4-main-div-m{
+    display: block;
+    display: inline;
+    margin-top: 100rem;
+}
+
+/* section 4 end here */
+
+/* section 5start here */
+.section5-main-div{
+    display: block;
+}
+/* section 5 end here */
+
+/*  section 6 start here */
+.sectiond6-div{
+    display: none;
+}
+
+.section7{
+    display: none;
+}
 
 }
