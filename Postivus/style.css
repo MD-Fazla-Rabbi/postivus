@@ -403,6 +403,7 @@ text-align: center;
     border:2px solid black;
     border-radius: 1.5rem;
     padding: 4rem;
+    background-color: #B9FF66;
     
     
 
@@ -444,6 +445,7 @@ text-align: center;
     border-radius: 1.5rem;
     padding: 4rem;
     margin-top: 2rem;
+    background-color: #F3F3F3;
 }
 
 .section7-child2-div3{
@@ -462,6 +464,22 @@ text-align: center;
     font-size: 2rem;
 }
 
+.section7-bottom-div{
+    display: flex;
+    margin-top: 7rem;
+    gap: 3rem;
+    align-items: center;
+}
+
+.section7-bottom-h2{
+    font-size: 2.9rem;
+    background-color: #B9FF66;
+
+}
+
+.section7-bottom-p{
+    font-size: 1.5rem;
+}
 
 /* frist div end here */
 
@@ -469,6 +487,55 @@ text-align: center;
 /* section 7 end here */
 
 /* section 8 start here */
+
+.section8-card {
+    background-image: url(./images/icone6.png);
+    background-position: top right;
+}
+
+.section8-content-div {
+  /*  display: flex;
+    gap: 15px; */
+}
+
+.section8-content-div h3,. section5-content-div h5 {
+display:flex;
+    display: inline;
+}
+.section8-cards-container {
+    display :grid; grid-template-columns :repeat(3,1fr); 
+    gap:50px;
+
+    
+}
+
+.section8-card{
+    width: 100%;
+    backbackground-color:#FAF9F6;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow:0px 1px 0px 0px black;
+    background-image:url("img/icon section5.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size:10%;
+    box-sizing: border-box;
+}
+
+img.card-img {
+    width: 30%;
+    height: 20%;
+    
+}
+.inline {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 
 
