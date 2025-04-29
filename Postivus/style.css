@@ -196,6 +196,16 @@ text-align: center;
     
     
 }
+.section3-p{
+    color:white;
+
+}
+.contain-h5{
+    background-color: #B9FF66;
+}
+.contain{
+    background-color: #F3F3F3;
+}
 
 .section3-child{
     display: flex;
@@ -351,6 +361,10 @@ border-radius: 5px;
 
 .section5-icon{
    margin-top: 1rem;
+   display: flex;
+   color: #B9FF66;
+   justify-content: flex-start;
+   gap: 1rem;
 }
 
 .section5-main-div-m{
@@ -481,44 +495,41 @@ text-align: center;
     font-size: 1.5rem;
 }
 
-/* frist div end here */
+
+/* first div end here */
 
 
 /* section 7 end here */
 
 /* section 8 start here */
 
-.section8-card {
-    background-image: url(./images/icone6.png);
-    background-position: top right;
-}
-
 .section8-content-div {
   /*  display: flex;
     gap: 15px; */
 }
 
-.section8-content-div h3,. section5-content-div h5 {
+.section8-content-div h3,.section5-content-div h5 {
 display:flex;
     display: inline;
 }
 .section8-cards-container {
     display :grid; grid-template-columns :repeat(3,1fr); 
     gap:50px;
+    margin-top: 3rem;
 
     
 }
 
 .section8-card{
     width: 100%;
-    backbackground-color:#FAF9F6;
+    background-color:#FAF9F6;
     margin: 0 auto;
     align-items: center;
     padding: 20px;
     border: 1px solid;
     border-radius: 8px;
     box-shadow:0px 1px 0px 0px black;
-    background-image:url("img/icon section5.png");
+    background-image:url("./images/icone6.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size:10%;
@@ -537,7 +548,27 @@ img.card-img {
     gap: 20px;
 }
 
+.section8-bottom-div{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 3rem;
 
+}
+
+
+.section8-bottom{
+    background-color: #000000;
+    display: flex;
+    justify-content:center;
+    height: 2.5rem;
+    color: #F3F3F3;
+    width: 12rem;
+    align-items: center;
+    border-radius: 1rem;
+
+
+
+}
 
 
 
