@@ -570,6 +570,30 @@ img.card-img {
 
 }
 
+/*    section9 start here */
+
+.section9-main-div{
+    display: flex;
+    gap:4rem;
+    margin-top: 4rem;
+}
+
+.section9-button{
+    background-color: #B9FF66;
+    height:3.6rem;
+    width: 20rem;
+    font-size: 3rem;
+    font-size:bold ;
+    align-items: center;
+}
+
+.section9-p{
+    font-size:1.4rem;
+    align-items:center;
+
+    
+}
+
 
 
 /* media queries................................... */
