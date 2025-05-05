@@ -668,22 +668,24 @@ img.card-img {
 
 .section12-div1{
     display: flex;
-    flex-shrink: 2;
-    justify-content: center;
-    border:1px solid #000000;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    border-radius: 5.625rem;
     margin: 3rem;
     border-radius: 3rem;
     padding-top: 5rem;
     padding-left: 5rem;
     padding-bottom: 5rem;
     align-items: center
+
 }
 
 .contact-form {
     max-width: 400px;
-    background: #fff;
-    padding: 20px;
+    background: #ffffff;
     border-radius: 12px;
+    flex-grow: 1;
+    
   }
 
 
@@ -711,7 +713,7 @@ img.card-img {
   }
 
 
-  .contact-form input[type="Name"],
+  .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
   width: 100%;
@@ -757,7 +759,6 @@ img.card-img {
     
     
     justify-content: flex-end;
-    both want to be 100% wide, 2nd item has flex-shrink: 2;
   }
 
  /* .section4-img{
@@ -780,6 +781,65 @@ img.card-img {
     
     
 }
+*/
+.footer-main-div {
+    background-color:black;
+    color:white;
+    border-top-left-radius:17px;
+    border-top-right-radius: 17px;
+    padding:20px;
+    box-sizing: border-box;
+    
+}
+.footer-nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    
+}
+.footer-nav sub-ul {
+font-size:10px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    gap:20px;      
+    
+}
+
+.footer-first-div {
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    max-width: 120px;
+    font-size: 10px;
+   
+}
+
+.first-div-child1 {
+   align-content:center; 
+  
+}
+
+.footer-flex {
+    display:flex;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.footer-div-child3 {
+display:flex;
+    border-top : 1px solid;
+    gap:20px;
+    
+}
+
+p.footer-div-child3 {
+     font-size:20px;
+    font-weight: 400;
+}
+
+
 /* media queries................................... */
 
 @media screen and (max-width: 576px){
@@ -846,11 +906,11 @@ img.card-img {
  .section2-button{
     justify-content: center;
    
-    /*align-items: center;*/
+    /*align-items: center;
     width: 7rem;
     height: 3rem;
     border-left:5rem;
- }
+ }*/
 
  .section2-p{
     align-items: center;
